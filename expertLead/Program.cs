@@ -21,6 +21,7 @@ Start with tests or implementation, whatever is better for you.
 
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using NUnit.Framework;
 // To execute C#, please define "static void Main" on a class
 // named Solution.
@@ -66,6 +67,8 @@ namespace expertLead
             Console.WriteLine("Point B:");
             Console.WriteLine("X: " + far.PointB.X.ToString());
             Console.WriteLine("Y: " + far.PointB.Y.ToString());
+
+            Thread.Sleep(2500);
         }
     }
 
@@ -125,62 +128,94 @@ namespace expertLead
     {
         Calculation calc = new Calculation();
         List<Coordinates> coord = new List<Coordinates>();
-        Coordinates testCoord = new Coordinates();
+        Coordinates testCoord;
 
         [Test]
         public void ShortTest()
         {
-            double expected = 1.0;
+            double expected = 2.0;
 
-            testCoord.X = 1;
-            testCoord.Y = 1;
+            testCoord = new Coordinates
+            {
+                X = 1,
+                Y = 1
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 9;
-            testCoord.Y = 9;
+            testCoord = new Coordinates
+            {
+                X = 9,
+                Y = 9
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 2;
-            testCoord.Y = 2;
+            testCoord = new Coordinates
+            {
+                X = 2,
+                Y = 2
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 5;
-            testCoord.Y = 5;
+            testCoord = new Coordinates
+            {
+                X = 5,
+                Y = 5
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 7;
-            testCoord.Y = 7;
+            testCoord = new Coordinates
+            {
+                X = 7,
+                Y = 7
+            };
             coord.Add(testCoord);
 
-            Assert.AreEqual(expected, calc.PointDistance(coord, true));
+            Distance distance = calc.PointDistance(coord, true);
+            Assert.AreEqual(expected, distance.DistanceValue);
         }
 
         [Test]
         public void LongTest()
         {
-            double expected = 1.0;
+            double expected = 3.4641016151377544d;
 
-            testCoord.X = 1;
-            testCoord.Y = 1;
+            testCoord = new Coordinates
+            {
+                X = 1,
+                Y = 1
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 9;
-            testCoord.Y = 9;
+            testCoord = new Coordinates
+            {
+                X = 9,
+                Y = 9
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 2;
-            testCoord.Y = 2;
+            testCoord = new Coordinates
+            {
+                X = 2,
+                Y = 2
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 5;
-            testCoord.Y = 5;
+            testCoord = new Coordinates
+            {
+                X = 5,
+                Y = 5
+            };
             coord.Add(testCoord);
 
-            testCoord.X = 7;
-            testCoord.Y = 7;
+            testCoord = new Coordinates
+            {
+                X = 7,
+                Y = 7
+            };
             coord.Add(testCoord);
 
-            Assert.AreEqual(expected, calc.PointDistance(coord, false));
+            Distance distance = calc.PointDistance(coord, false);
+            Assert.AreEqual(expected, distance.DistanceValue);
         }
     }
 }

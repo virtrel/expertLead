@@ -8,3 +8,13 @@
 /Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/nunit.framework.pdb
 /Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/nunit.framework.xml
 /Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.csproj.CopyComplete
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\obj\x86\Debug\expertLead.csproj.CoreCompileInputs.cache
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\obj\x86\Debug\expertLead.exe
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\obj\x86\Debug\expertLead.pdb
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\expertLead.exe.config
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\expertLead.exe
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\expertLead.pdb
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\nunit.framework.dll
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\nunit.framework.pdb
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\bin\Debug\nunit.framework.xml
+C:\Users\mh\Documents\GitHub\expertLead\expertLead\obj\x86\Debug\expertLead.csproj.CopyComplete
