@@ -1,0 +1,10 @@
+/Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.csprojAssemblyReference.cache
+/Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.csproj.CoreCompileInputs.cache
+/Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/expertLead.exe
+/Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/expertLead.pdb
+/Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.exe
+/Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.pdb
+/Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/nunit.framework.dll
+/Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/nunit.framework.pdb
+/Users/markushaslinger/Projects/expertLead/expertLead/bin/Debug/nunit.framework.xml
+/Users/markushaslinger/Projects/expertLead/expertLead/obj/x86/Debug/expertLead.csproj.CopyComplete

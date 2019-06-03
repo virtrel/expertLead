@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{D896652B-3555-4838-8018-6318AA22503F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="expertLead Status">
+    <Files>
+      <File FileName="expertLead/Program.cs" Line="28" Column="1" />
+      <File FileName="expertLead Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.expertLead PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
